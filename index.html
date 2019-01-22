@@ -1,47 +1,114 @@
 <html>
-    <html lang="en-US">
-    <title>hockey</title>
-    <h1>drake is joks.</h1>
-    <body
-    <p style="color:red">these four leafs players are probably the worst in history because they suck</p>
+    <body background="colourbackground.gif"></body>
     
-    marner<br>
-    nylander
-    kadri
-    <img src="drake.jpeg" width="50" height="60" alt="chicken pie">
-    <style>
-a:link {
-  color: green; 
-  background-color: transparent; 
+
+<center><header>Welcome</header></center>
+   
+
+   
+
+     <style>
+        button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+        #printhere {
+            background: yellow;
+            color : red;
+            text-align: center;
+                
+        }
+         .small {
+             margin-top: 30px;
+         }
+         
+         .big {
+             margin-top: 100px;
+         }
+         .huge {
+             margin-top: 700px;
+         }
+    </style>
+     <style>
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
 }
 
-a:visited {
-  color: pink;
-  background-color: transparent;
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
   text-decoration: none;
+  display: block;
 }
 
-a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
-a:active {
-  color: yellow;
-  background-color: transparent;
-  text-decoration: underline;
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
 </style>
-</body>
-<button>Click me</button>
-<ul>
-  <li>ha</li>
-  <li>haa</li>
-  <li>halak</li>
-</ul>
-<a href="http://www.gthlcanada.com/leaguestandings/">This is a link to the best ever hockey team</a>
 
+<div class="dropdown">
+  <button class="dropbtn">Productivites</button>
+  <div class="dropdown-content">
+    <a href="https://mail.google.com/mail/u/0/">gmail</a>
+    <a href="https://ucc.learning.powerschool.com/do/account/login?src=%2Fu%2Fdrake.belanger-polak%2Fportal">powerschool</a>
+    <a href="https://www.google.com/drive/">google drive</a>
+  </div>
+</div>
+    
+    
+    
+       
+    <center><button class="small" onclick="homepage.html">homepage</button> | <button onclick="window.open('practice.html')">game</button> | <button onclick="https://instagram.com"> insta</button>     </center>
+    
+    <center><img class="big" src="drake.jpeg" width="600" height="600" alt="chicken pie"></center>
+    
+        <script>
+            function myfunction() {
+                var mydiv = document.getElementById("printhere");
+                mydiv.innerHTML = "Hello world";
+            }    
+                    
+         
+        
+        </script>
+    
 
 </html>
